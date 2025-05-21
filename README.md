@@ -2,8 +2,8 @@
 
 ![Banner](https://github.com/user-attachments/assets/5b933a56-0ece-452a-99c0-1a641485a6b9)
 
-# **{{ repo-name }}**
-_**{{ repo-description }}**_
+# **ShaderToon**
+_**Shader in Unity 6 URP, Toon**_
 
 
 </header>
