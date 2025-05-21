@@ -1300,7 +1300,7 @@
     "m_StageCapability": 3,
     "m_BareResource": false,
     "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"150c0c5e21b28f14986324fc4660f9cc\",\"type\":3}}",
+        "m_SerializedTexture": "",
         "m_Guid": ""
     },
     "m_DefaultType": 0
@@ -1312,8 +1312,8 @@
     "m_ObjectId": "4d21d37b8fab42ff97678946fe8ef4c1",
     "m_Title": "Color",
     "m_Position": {
-        "x": -682.0,
-        "y": 700.9998779296875
+        "x": -682.000244140625,
+        "y": 701.0000610351563
     }
 }
 
@@ -1985,8 +1985,8 @@
     "m_ObjectId": "904e0258fcb44e64b58f6795a28953ef",
     "m_Title": "Lighting",
     "m_Position": {
-        "x": -2092.999755859375,
-        "y": 394.00006103515627
+        "x": -2093.0,
+        "y": 393.9999694824219
     }
 }
 
@@ -2146,8 +2146,8 @@
     "m_ObjectId": "9dea4d5691d6490d9a9b35bd452da2b3",
     "m_Title": "Fresnel",
     "m_Position": {
-        "x": -1212.9998779296875,
-        "y": 1203.9998779296875
+        "x": -1213.0,
+        "y": 1204.0
     }
 }
 
@@ -2384,8 +2384,8 @@
     "m_ObjectId": "b09ef0af4b4f42169799435915df0b53",
     "m_Title": "Albedo",
     "m_Position": {
-        "x": 214.0001220703125,
-        "y": 662.9998779296875
+        "x": 213.999755859375,
+        "y": 662.9999389648438
     }
 }
 
@@ -2731,7 +2731,7 @@
     "m_ObjectId": "c43e2c42e6d446d697803de7d29b2238",
     "m_Title": "Remaping",
     "m_Position": {
-        "x": -1785.999755859375,
+        "x": -1786.0,
         "y": 616.0
     }
 }
@@ -2822,8 +2822,8 @@
     "m_ObjectId": "c76e5355c24c48f9aa34c7e4548bbe28",
     "m_Title": "Shinny",
     "m_Position": {
-        "x": -709.9999389648438,
-        "y": 999.9998779296875
+        "x": -710.000244140625,
+        "y": 1000.0000610351563
     }
 }
 
