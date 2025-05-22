@@ -23,7 +23,7 @@ namespace UnityEditor.Rendering.Toon
 
             Legacy,
             Universal,
-            HDRP,
+         //   HDRP,
             Unknown,
         }
 
@@ -38,10 +38,10 @@ namespace UnityEditor.Rendering.Toon
                 {
                     return RenderPipeline.Legacy; 
                 }
-                if (currentRenderPipeline.defaultMaterial.shader.name.StartsWith(kHdrpShaderPrefix))
-                {
-                    return RenderPipeline.HDRP;
-                }
+                //if (currentRenderPipeline.defaultMaterial.shader.name.StartsWith(kHdrpShaderPrefix))
+                //{
+                //    return RenderPipeline.HDRP;
+                //}
                 if (currentRenderPipeline.defaultMaterial.shader.name.StartsWith(kUrpShaderPrefix))
                 {
                     return RenderPipeline.Universal;
@@ -69,18 +69,18 @@ namespace UnityEditor.Rendering.Toon
 
         internal  void RenderingPerChennelsSetting(Material material) 
         {
-            if (currentRenderPipeline == RenderPipeline.HDRP)
-            {
+            //if (currentRenderPipeline == RenderPipeline.HDRP)
+            //{
 
-                RenderingPerChennelsSettingHDRP(material);
-            }
+            //    RenderingPerChennelsSettingHDRP(material);
+            //}
         }
         internal  void ApplyTessellation(Material materal) 
         {
-            if (currentRenderPipeline == RenderPipeline.HDRP)
-            {
-                ApplyTessellationHDRP(materal);
-            }
+            //if (currentRenderPipeline == RenderPipeline.HDRP)
+            //{
+            //    ApplyTessellationHDRP(materal);
+            //}
         }
         internal  void ApplyRenderingPerChennelsSetting(Material material) 
         {
@@ -88,11 +88,11 @@ namespace UnityEditor.Rendering.Toon
         }
         internal  void FindTessellationProperties(MaterialProperty[] props) 
         {
-            if (currentRenderPipeline == RenderPipeline.HDRP)
-            {
+            //if (currentRenderPipeline == RenderPipeline.HDRP)
+            //{
 
-                FindTessellationPropertiesHDRP(props);
-            }
+            //    FindTessellationPropertiesHDRP(props);
+            //}
         }
 
         internal const string ShaderDefineSHADINGGRADEMAP = "_SHADINGGRADEMAP";
@@ -903,7 +903,7 @@ namespace UnityEditor.Rendering.Toon
             m_MaterialScopeList.RegisterHeaderScope(Styles.outlineFoldout, Expandable.Outline, GUI_Outline, (uint)UTS_Mode.ThreeColorToon, (uint)UTS_TransparentMode.On, isTessellation: 0);
 
             m_MaterialScopeList.RegisterHeaderScope(Styles.tessellationFoldout, Expandable.TessellationLegacy, GUI_Tessellation, (uint)UTS_Mode.ThreeColorToon, (uint)UTS_TransparentMode.Off, isTessellation: 1);
-            m_MaterialScopeList.RegisterHeaderScope(Styles.tessellationFoldout, Expandable.TessellationHDRP, GUI_TessellationHDRP, (uint)UTS_Mode.ThreeColorToon, (uint)UTS_TransparentMode.Off, isTessellation: 1);
+            //m_MaterialScopeList.RegisterHeaderScope(Styles.tessellationFoldout, Expandable.TessellationHDRP, GUI_TessellationHDRP, (uint)UTS_Mode.ThreeColorToon, (uint)UTS_TransparentMode.Off, isTessellation: 1);
 
             // originally these were in simple UI
             m_MaterialScopeList.RegisterHeaderScope(Styles.lightEffectivenessFoldout, Expandable.SceneLight, GUI_LightColorEffectiveness, (uint)UTS_Mode.ThreeColorToon, (uint)UTS_TransparentMode.Off, isTessellation: 0);
@@ -931,19 +931,19 @@ namespace UnityEditor.Rendering.Toon
                 }
                 if (item.tessellationEnabled == 1)
                 {
-                    if (currentRenderPipeline == RenderPipeline.HDRP)
-                    {
-                        if (item.expandable == (uint)Expandable.TessellationHDRP)
-                        {
-                            if (!material.shader.name.Contains(kTessellation))
-                                continue;
-                        }
-                        else
-                        {
-                            continue;
-                        }
-                    }
-                    else if (currentRenderPipeline == RenderPipeline.Legacy)
+                    //if (currentRenderPipeline == RenderPipeline.HDRP)
+                    //{
+                    //    if (item.expandable == (uint)Expandable.TessellationHDRP)
+                    //    {
+                    //        if (!material.shader.name.Contains(kTessellation))
+                    //            continue;
+                    //    }
+                    //    else
+                    //    {
+                    //        continue;
+                    //    }
+                    //}
+                    if (currentRenderPipeline == RenderPipeline.Legacy)
                     {
                         if (item.expandable == (uint)Expandable.TessellationLegacy)
                         {
