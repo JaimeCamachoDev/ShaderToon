@@ -1,6 +1,7 @@
 <header>
+      
+![image](https://github.com/user-attachments/assets/27584a89-8e50-4057-8e75-c122244521c1)
 
-![Banner](https://github.com/user-attachments/assets/5b933a56-0ece-452a-99c0-1a641485a6b9)
 
 # **ShaderToon**
 _**Shader in Unity 6 URP, Toon**_
@@ -12,16 +13,20 @@ _**Shader in Unity 6 URP, Toon**_
 
 - [x] Unity 6.0.42f1
 - [ ] VFX Graph
-- [ ] Shader Graph
+- [x] Shader Graph
 - [ ] Shader Amplify (ASE)
 - [ ] Particle System
 - [ ] Tools
-- [ ] Resources
+- [X] Resources
       
 <footer>
 
 ---
 
 [Wiki JaimeCamachoDev](https://jaimecamachodev.github.io)
+
+[NiloCat](https://github.com/ColinLeung-NiloCat/UnityURPToonLitShaderExample)
+
+[ChopChop](https://github.com/UnityTechnologies/open-project-1.git)
 
 </footer>
