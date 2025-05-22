@@ -174,17 +174,17 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Lighting: 0
-    - _LockLight: 0
+    - _LockLight: 1
     - _Metallic: 1
     - _Metallic_Power: 10
     - _Normal_Power: 1.2
-    - _Normal_Strenght: 1.5
+    - _Normal_Strenght: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 0
-    - _Shinny: 5
+    - _Shinny: 1
     - _Shinny_1: 0.2
     - _Smooth: -1
     - _Smoothness: 0.5
