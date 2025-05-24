@@ -4,7 +4,7 @@
 
 
 # **ShaderToon**
-_**Shader in Unity 6 URP, Toon**_
+_**Shader Graph in Unity 6 URP, Toon**_
 
 
 </header>
