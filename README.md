@@ -4,7 +4,7 @@
 
 
 # **ShaderToon**
-_**Shader Graph in Unity 6 URP, Toon**_
+_**Shader estilizado tipo toon para renderizado no fotorrealista (NPR). Simula sombreado , contornos y niveles de iluminación tipo dibujo animado o cómic.**_
 
 
 </header>
