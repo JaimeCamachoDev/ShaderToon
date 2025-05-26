@@ -29,4 +29,6 @@ _**Shader Graph in Unity 6 URP, Toon**_
 
 [ChopChop](https://github.com/UnityTechnologies/open-project-1.git)
 
+[SnutiHQ](https://github.com/SnutiHQ/Toon-Shader.git)
+
 </footer>
